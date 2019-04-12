@@ -1,0 +1,1 @@
+print('Yes' if 'a' and 'b' and 'c' in input() else 'No')
