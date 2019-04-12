@@ -1,1 +1,2 @@
-print('Yes' if 'a' and 'b' and 'c' in input() else 'No')
+S = input()
+print('Yes' if 'a' in S and 'b' in S and 'c' in S else 'No')
