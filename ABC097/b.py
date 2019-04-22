@@ -1,2 +1,8 @@
-import math
-print((math.ceil(int(input())**0.5)-1)**2)
+x = int(input())
+ans = 0
+for i in range(1, x+1):
+  for j in range(2, 10):
+    if i**j <= x:
+      ans = max(ans, i**j)
+
+print(ans)
